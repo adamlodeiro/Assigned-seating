@@ -7,7 +7,7 @@ class Main {
     Scanner scan = new Scanner(System.in);
 
     for (int i = 0; i < 15; i++) {
-      System.out.println("What are you're guys names?");
+      System.out.println("What's are your name?");
       names[1]  = scan.next();
     }
 
