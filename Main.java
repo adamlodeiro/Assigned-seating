@@ -22,4 +22,3 @@ class Main {
       System.out.println(names[] + "You'll sit in" + numbers[]);*/
     }
   }
-}
