@@ -17,10 +17,11 @@ class Main {
       names[1] = scan.next();
     }
     System.out.println("Ms.Benny: Nice to meet you all now we shall assign new seats to everyone!");
-
+// this is just another print statement
     int count = 0; 
     while(count <= 15); 
     System.out.println("you sit in seat " + names[count]);
     count++;
+    //While loop to assign kids to sit in their seats
     }
 }
