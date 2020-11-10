@@ -18,7 +18,9 @@ class Main {
     }
     System.out.println("Ms.Benny: Nice to meet you all now we shall assign new seats to everyone!");
 
-    /*while (numbers[] < 15; names[] < 15) {
-      System.out.println(names[] + "You'll sit in" + numbers[]);*/
+    int count = 0; 
+    while(count <= 15); 
+    System.out.println("you sit in seat " + names[count]);
+    count++;
     }
-  }
+}
