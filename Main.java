@@ -19,11 +19,13 @@ class Main {
     }
     System.out.println("Ms.Benny: Nice to meet you all now we shall assign new seats to everyone!");
     // this is just another print statement
-    int count = 0;
-    while (count <= 15)
-      ;
-    System.out.println("you sit in seat " + names[count]);
-    count++;
+    int count = 1;
+    while (count <= 15) {
+
+      System.out.println(names[1] + " You'll sit in seat " + count);
+      count++;
+    
+    }
     // While loop to assign kids to sit in their seats
     // This while loop also also re-prints everything
   }
