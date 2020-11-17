@@ -14,17 +14,18 @@ class Main {
     // This scanner is to get the students names
     for (int i = 0; i < 15; i++) {
       System.out.println("What's are your name?");
-      names[1] = scan.next();
+      names[i] = scan.next();
+      System.out.print("name = " + names[i]);
       // This is my for loop to keep printing names
     }
     System.out.println("Ms.Benny: Nice to meet you all now we shall assign new seats to everyone!");
     // this is just another print statement
-    int count = 1;
-    while (count <= 15) {
+    int count = 0;
+    while (count <= 14) {
 
-      System.out.println(names[1] + " You'll sit in seat " + count);
-      count++;
-    
+      System.out.println(names[count] + " You'll sit in seat " + numbers[count]);
+      
+
     }
     // While loop to assign kids to sit in their seats
     // This while loop also also re-prints everything
